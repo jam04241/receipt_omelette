@@ -1,0 +1,76 @@
+@font-face{
+    font-family: YoungSerif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+
+    font-family: boldcredit;
+    src: url(./assets/fonts/outfit/static/Outfit-ExtraBold.ttf);
+}
+*{    
+    margin: 0;
+    padding: 0;    
+    background-color: papayawhip;
+    font-family: YoungSerif;
+}
+
+.header{
+    height: 100px;
+    width: auto;
+    background-color: papayawhip;
+}
+.footer{
+    height: 200px;
+    width: auto;
+    background-color: papayawhip;
+    
+}
+
+.container{   
+    height: auto; 
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: flex-start;      
+    gap: 20px;      
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 40px;
+    padding: 50px;
+    position: relative;
+}
+
+/* Background Colors specify in ol, li, h1, h2, etc.*/
+.Ingre_list, .Prep-list, h1, h2, b, ol{
+    background-color: white;
+}
+
+p{
+    line-height: 25px;
+    background-color: white;
+}
+li{
+    line-height: 25px;
+    background-color: white;
+}
+
+.Table-list tr td{
+    border: 5px solid white;
+    background-color: white;
+    position: relative;
+    border-spacing: 30px;
+    padding-right: 200px;
+    font-size: 20px;
+}
+.Jpeg{
+    height: 400px;
+    width:  700px;
+    border-radius: 10%;
+
+}
+
+
+
+
+
+
